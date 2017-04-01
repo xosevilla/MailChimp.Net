@@ -20,6 +20,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{835A7D
 		.build\MSBuild.Community.Tasks.targets = .build\MSBuild.Community.Tasks.targets
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{8A7EA9DF-A54E-4520-B657-760EFC930BCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OauthSample", "OauthSample\OauthSample.csproj", "{57CFCF41-D2B6-424F-BD2B-C2B3AB6085A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -64,8 +68,27 @@ Global
 		{42DA36F8-AF54-4610-93A1-83E18B37CE5F}.Release|x64.Build.0 = Release|Any CPU
 		{42DA36F8-AF54-4610-93A1-83E18B37CE5F}.Release|x86.ActiveCfg = Release|Any CPU
 		{42DA36F8-AF54-4610-93A1-83E18B37CE5F}.Release|x86.Build.0 = Release|Any CPU
+		{57CFCF41-D2B6-424F-BD2B-C2B3AB6085A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57CFCF41-D2B6-424F-BD2B-C2B3AB6085A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57CFCF41-D2B6-424F-BD2B-C2B3AB6085A2}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{57CFCF41-D2B6-424F-BD2B-C2B3AB6085A2}.Debug|ARM.Build.0 = Debug|Any CPU
+		{57CFCF41-D2B6-424F-BD2B-C2B3AB6085A2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{57CFCF41-D2B6-424F-BD2B-C2B3AB6085A2}.Debug|x64.Build.0 = Debug|Any CPU
+		{57CFCF41-D2B6-424F-BD2B-C2B3AB6085A2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{57CFCF41-D2B6-424F-BD2B-C2B3AB6085A2}.Debug|x86.Build.0 = Debug|Any CPU
+		{57CFCF41-D2B6-424F-BD2B-C2B3AB6085A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57CFCF41-D2B6-424F-BD2B-C2B3AB6085A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57CFCF41-D2B6-424F-BD2B-C2B3AB6085A2}.Release|ARM.ActiveCfg = Release|Any CPU
+		{57CFCF41-D2B6-424F-BD2B-C2B3AB6085A2}.Release|ARM.Build.0 = Release|Any CPU
+		{57CFCF41-D2B6-424F-BD2B-C2B3AB6085A2}.Release|x64.ActiveCfg = Release|Any CPU
+		{57CFCF41-D2B6-424F-BD2B-C2B3AB6085A2}.Release|x64.Build.0 = Release|Any CPU
+		{57CFCF41-D2B6-424F-BD2B-C2B3AB6085A2}.Release|x86.ActiveCfg = Release|Any CPU
+		{57CFCF41-D2B6-424F-BD2B-C2B3AB6085A2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57CFCF41-D2B6-424F-BD2B-C2B3AB6085A2} = {8A7EA9DF-A54E-4520-B657-760EFC930BCD}
 	EndGlobalSection
 EndGlobal
